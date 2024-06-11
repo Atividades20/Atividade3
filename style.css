@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif; 
+}
+
+.quadro {
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px 20px 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    margin: 0 30px;
+}
+
+.quadro img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.botao ul {
+    padding: 0;
+}
+
+.botao li {
+    margin: 0 10px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 12px;
+    list-style: none;
+}
+
+.botao li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
